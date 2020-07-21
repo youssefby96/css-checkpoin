@@ -1,0 +1,142 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* header */
+header {
+  position: sticky;
+  top: 0;
+  padding: 0 40px;
+  box-sizing: border-box;
+  background-color:rgba(245, 215, 160, 0.61);
+}
+.logo-css {
+  padding: 5px 0px;
+  width: 60px;
+  height: 60px;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.navmenu a {
+  text-decoration: none;
+  color:green;
+}
+.navmenu a:hover {
+  text-decoration: underline;
+  color: #4fa3db;
+}
+.navmenu li {
+  font-weight: 550;
+  font-size: 14px;
+  margin: 23px 0px;
+  padding: 0 12px;
+}
+
+
+section h1{
+    color: crimson;
+}
+p{
+    font-weight: bold;
+    font-size  : 1em;
+    line-height: 150%;
+    font-family:  Arial;
+    text-align: justify;
+  
+}
+
+.main  {
+  padding: 0 40px;
+
+}
+.main h1 {
+  color: crimson;
+}
+.About div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.About{
+padding-top:10px  ;
+padding-left:0px  ;
+padding-bottom:  10px ;
+padding-right: 600px ;
+}
+ 
+  
+.Work div   {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Resume {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 300px;
+}
+.Resume h1 {
+  color: #484551;
+  font-family: 'Segoe UI', serif;
+  font-size: 2.6em;
+  font-weight: 400;
+  text-align: left;
+  
+}
+
+.contact div  {
+      /*stitching*/
+ outline: 1px dashed #98abb9;
+ outline-offset: -5px;
+ 
+ background-color: #556068;
+ height: 100px;
+ width: 400px;
+ margin: 0 0;
+ 
+ /*shadow*/
+ -webkit-box-shadow: 2px 2px 2px #000;
+ -moz-box-shadow: 2px 2px 2px #000;
+ box-shadow: 2px 2px 2px #000;
+    }
+
+footer { 
+  background-color:rgba(2, 73, 2, 0.397);
+}
+footer h1 {
+  color: brown;
+}
+
+.contactme {
+ color:black;
+}
+
+@media screen and (max-width: 1000px)
+{
+  
+  nav ul {
+    background-color:blue;
+     
+  
+  }
+  
+  nav li a {
+    color: burlywood;
+  }
+  p{
+    color: cornsilk;
+    background-color: darkolivegreen;
+  }
+}
